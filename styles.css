@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
 }
 
 .logo {
@@ -25,6 +26,8 @@ ul {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    margin-left: 15px;
+
 }
 
 #title {
@@ -40,7 +43,12 @@ sub {
 
 .button {
     background-color: #3882f6;
-    padding: 6px 16px;
+    border-radius: 8px;
+    border: none;
+    height: max-content;
+    width: max-content;
+    padding: 6px 20px;
+    margin-top: 10px;
 }
 
 #button-1 {
@@ -50,7 +58,36 @@ sub {
 
 }
 .section-1 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: #1f2937
+}
+
+.container-section-1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+#container-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+#container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
