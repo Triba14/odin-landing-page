@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 50px;
 }
 
 .logo {
@@ -66,24 +66,23 @@ sub {
 
 .container-section-1 {
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 8%;
+    padding-bottom: 12%;
 }
 
 #container-1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 450px;
+    width: 45%;
 }
 
 #container-2 {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 45%;
 }
 
 .info-header {
